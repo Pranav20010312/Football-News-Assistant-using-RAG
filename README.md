@@ -49,7 +49,7 @@ Built a **GenAI application** to transform football news articles into an intera
 Below is the Football News Assistant answering questions from a article using RAG and LLM.
 
 
-![Football News Assistant Screenshot](./app.png)
+![Football News Assistant Screenshot](App.png)
 
 
 
