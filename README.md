@@ -1,8 +1,7 @@
 # ⚽ Football News Assistant using RAG
 
 ## 📌 Problem Statement  
-Built a **GenAI application** to transform football news articles into an interactive question-answering tool.  
-Fans and journalists often want to extract meaningful insights quickly from long-form news content. This project uses **RAG (Retrieval-Augmented Generation)** to let users ask questions about live football articles and get accurate, source-cited answers in real time.
+Built a **GenAI application** to transform football news articles into an interactive question-answering tool.Fans and journalists often want to extract meaningful insights quickly from long-form news content. This project uses **RAG (Retrieval-Augmented Generation)** to let users ask questions about live football articles and get accurate, source-cited answers in real time.
 
 ---
 
