@@ -70,4 +70,5 @@ Below is the Football News Assistant answering questions from a article using RA
 2) Create a .env file with your GROQ credentials as follows:
 
    GROQ_MODEL=MODEL_NAME_HERE
+   
    GROQ_API_KEY=GROQ_API_KEY_HERE
