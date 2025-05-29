@@ -40,24 +40,32 @@ Fans and journalists often want to extract meaningful insights quickly from long
 
 ### 5. 🖥️ Gradio UI in Jupyter Notebook
 - Clean interface where users:
-  - Paste article URLs
-  - Type natural-language questions
-  - Receive answers + original source links
+  - Paste article URLs.
+  - Type natural-language questions.
+  - Receive answers + original source links.
 
 ---
 
 ## 🖼️ Screenshot
+Below is the Football News Assistant answering questions from a article using RAG and LLM.
+![App Preview](APP.jpg)
 
-> Paste this image in your repo and update the link
 
-!
+---
+
+## 📊 Outcomes
+-Enables football fans and analysts to ask detailed questions about current news.
+
+-Reduces time spent reading full-length articles.
 
 ---
 
 ## ⚙️ Setup Instructions
+1) Run the following command to install all dependencies.
 
-### 1. 📁 Clone the repository
+   pip install -r requirements.txt
 
-```bash
-git clone https://github.com/yourusername/football-news-assistant.git
-cd football-news-assistant
+2) Create a .env file with your GROQ credentials as follows:
+
+   GROQ_MODEL=MODEL_NAME_HERE
+   GROQ_API_KEY=GROQ_API_KEY_HERE
