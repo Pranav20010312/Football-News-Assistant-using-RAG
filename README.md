@@ -8,13 +8,13 @@ Built a **GenAI application** to transform football news articles into an intera
 ## 🧰 Technologies & Tools Used
 
 - **Python** – Core programming language
-- **LangChain** – RAG pipeline orchestration
+- **LangChain** – Building applications that combine language models 
 - **Gradio** – UI for interaction inside Jupyter Notebook
 - **ChromaDB** – Vector store for similarity search
 - **HuggingFace** – Sentence embeddings with `all-MiniLM-L6-v2`
 - **Groq + LLaMA 3 (70B)** – LLM used for fast, high-quality answers
 - **Unstructured** – For scraping article content from URLs
-- **Jupyter Notebook** – Development and demonstration environment
+
 
 ---
 
@@ -34,7 +34,7 @@ Built a **GenAI application** to transform football news articles into an intera
 
 ### 4. 🤖 Retrieval-Augmented Generation (RAG)
 - Relevant chunks are retrieved via semantic similarity.
-- Passed to **LLaMA 3 70B** through the Groq LLM interface.
+- Passed to **LLaMA 3 70B-versatile** through the Groq LLM interface.
 - LangChain's `RetrievalQAWithSourcesChain` generates accurate, source-grounded answers.
 
 ### 5. 🖥️ Gradio UI in Jupyter Notebook
